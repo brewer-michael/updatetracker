@@ -13,7 +13,7 @@ tickets = ticketInfo.select('.somediv') #div from html website
 # create folder called data in your project directory
 # uncomment the lines below
 # run docker container with - "docker run -v ~dropbox/docker-python/data:/data {image}"
-#with open("/data/currenttext.txt","w") as text_file:
+#with open("/data/currenttext.txt","w+") as text_file:
  #   text_file.write(str(tickets).replace('\n',''))
 
 # check for differences on the page
